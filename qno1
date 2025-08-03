@@ -1,0 +1,7 @@
+arr = [5, 10, 15, 20]
+
+new_element = int(input("Enter the element to insert at the end: "))
+
+arr.append(new_element)
+
+print("Array after insertion at the end:", arr)
